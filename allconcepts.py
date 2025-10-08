@@ -66,10 +66,10 @@ odd_values=[]
 for n in nums:
     if n%2==0:# dividing the list no. with 2 to check the odd or even 
        print(n,"even")
-       even_values.append(n)
+       even_values.append(n) #for seperatin the odd values we append it 
     
     else:
         print(n,"odd")
-        odd_values.append(n)
+        odd_values.append(n) #for seperatin the odd values we append it 
 
 print(even_values,odd_values)
