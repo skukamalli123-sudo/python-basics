@@ -73,3 +73,4 @@ for n in nums:
         odd_values.append(n) #for seperatin the odd values we append it 
 
 print(even_values,odd_values)
+
