@@ -42,6 +42,18 @@ div(200,10)
 div(20,10)
 div(30,10)
 
+#using return function
+def add(x,y):
+
+
+
+
+def check_even_or_odd(num):
+    if num%2 == 0:
+        retrun"even"
+    else:
+        retrun "odd"
+
 
 
 

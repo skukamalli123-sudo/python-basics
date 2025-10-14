@@ -1,0 +1,27 @@
+# isloggedin = False
+# isheAdmin = True
+
+# def allow_access():
+#     if isloggedin:
+#         if isheAdmin:
+#             print("he has access")
+#         else:
+#             print("you are not admin")
+#     else:
+#         print("please login")
+# allow_access()
+
+isloggedin = True
+isheAdmin = False
+
+def allow_access_version1():
+    if not isloggedin:
+          print("please login")
+          return
+    if not isheAdmin:
+        print("no access")
+        return
+    print("he has access")
+allow_access_version1()
+
+
