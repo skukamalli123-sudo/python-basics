@@ -22,6 +22,8 @@ def allow_access_version1():
         print("no access")
         return
     print("he has access")
+
+
 allow_access_version1()
 
 
